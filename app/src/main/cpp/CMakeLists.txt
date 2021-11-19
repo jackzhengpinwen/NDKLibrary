@@ -14,6 +14,8 @@ project("ndklibrary")
 # You can define multiple libraries, and CMake builds them for you.
 # Gradle automatically packages shared libraries with your APK.
 
+
+#FILE(GLOB SC_FILES "*.cpp" "*.h")
 aux_source_directory(. DIR_SRCS)
 
 add_library( # Sets the name of the library.
